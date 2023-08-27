@@ -23,13 +23,23 @@
 
 
 body{
-    font-family: Roboto;
+    font-family: 'Roboto' ,sans-serif;
     font-size:16px;
     font-weight:400;
     line-height: 24px;
     letter-spacing: 0.32px;
     font-style:normal;
     color:var(--slatecolor);
+}
+
+p {
+    font-family:'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    font-style: normal;
+    color: var(--slatecolor);
 }
 
 img{
@@ -55,6 +65,7 @@ a{
 .nav-pagelogo{
     font-family: 'Raleway';
     font-size: 18px;
+    font-style: normal;
     letter-spacing: 0.54px;
     line-height:  21px;
     font-weight: 800;
@@ -66,49 +77,52 @@ a{
     color:var(--navyblue) ;
 }
 
+.nav-link {
+    color: var(--navyblue);
 
-.nav-list-item{
     font-family:inherit;
     font-size:16px;
+    font-style: normal;
     font-weight:500;
     line-height: 24px;
-    color: var(--navyblue);
+    
     text-decoration:none;
     letter-spacing:0.32px;
 }
 
-.nav-list-item:hover,
- .nav-list-item:focus{
+.nav-link:hover,
+ .nav-link:focus{
     color: var(--oceancolor);
     
 }
 
 
-.address-list-item{
+.address-link{
     color:var(--slatecolor);
-    font-style: normal; 
+    font-family: inherit;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.32px; 
+    letter-spacing: 0.32px;
    
 
 }
-
-.address-list-item:hover,
- .address-list-item:focus{
+.address-link:hover,
+ .address-link:focus{
     color: var(--oceancolor);
     
     
 }
 
 
-.main-caption {
+.hero {
     background-color:var(--navyblue); 
 }
 
 
 
-.main-caption-title {
+.hero-title {
     font-size: 56px;
     font-weight:700;
     line-height: 60px;
@@ -118,7 +132,7 @@ a{
     
 }
 
-.main-caption-button{
+.hero-button{
     font-family:inherit;
     font-size:16px;
     font-weight:500;
@@ -136,15 +150,18 @@ a{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 
-.main-caption-button:hover,
-.main-caption-button:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--oceancolor);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
     border-radius: 4px; 
 
 }
 
-.header2{  /* header 2 */
+.about-title,
+ .solution-title, 
+ .team-title
+ {  /* header 2 */
     text-align: center;
     color: var(--navyblue);
     font-size:36px;
@@ -155,18 +172,35 @@ a{
 
 }
 
-.about-list-header,
- .team-list-name, 
- .product-items-list-header{  /* header 3*/
-    font-size:20px;
-    font-weight:500;
+.about-header,
+ .team-name, 
+ .product-name {   /* header 3*/
+    color: var(--navyblue);
+    font-family:inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
-    color: var(--navyblue);
 }
 
 
-.footer-logo-web{
+
+.about-description,
+.product-description, 
+.team-job-description {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--slatecolor);
+}
+
+
+.footer-logo-web,
+.footer-logo-studio{
     font-family: 'Raleway';
     font-size: 18px;
     letter-spacing: 0.54px;
@@ -176,17 +210,23 @@ a{
     text-transform:uppercase;
     text-decoration:none;
 }
-
-
 .footer-logo{
     background-color: var(--navyblue);
 }
 
 
-.footer-logo-studio,
- .footer-logo-item {
+.footer-logo-studio {
 color:var(--cloudcolor);
 }
+ .footer-logo-description {
+color: var(--cloudcolor);
+font-family: inherit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+ }
 
 
 .solutions-filter-list-item{
