@@ -33,7 +33,6 @@ body{
 }
 
 p {
-    font-family:'Roboto';
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -60,17 +59,6 @@ a{
     color:inherit;
  }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1440px;
-    height: 72px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-
   
 
 .nav-pagelogo{
@@ -90,8 +78,6 @@ a{
 
 .nav-link {
     color: var(--navyblue);
-
-    font-family:inherit;
     font-size:16px;
     font-style: normal;
     font-weight:500;
@@ -187,7 +173,6 @@ a{
  .team-name, 
  .product-name {   /* header 3*/
     color: var(--navyblue);
-    font-family:inherit;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -200,7 +185,6 @@ a{
 .about-description,
 .product-description, 
 .team-job-description {
-    font-family: inherit;
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
@@ -230,13 +214,12 @@ a{
 color:var(--cloudcolor);
 }
  .footer-logo-description {
-color: var(--cloudcolor);
-font-family: inherit;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.32px;
+    color: var(--cloudcolor);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
  }
 
 
@@ -283,11 +266,3 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-
-.solutions-filter-list-item{ 
-    display: flex;
-    flex-wrap: wrap;
-    padding: 12px 24px;
-    align-items: flex-start;
-}
-
