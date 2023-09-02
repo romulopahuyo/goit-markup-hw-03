@@ -299,13 +299,14 @@ justify-content: center;
 
    .about-header{
     max-width: 100%;
-    text-align: center;
+    
 
    }
    
 }
-
+ 
 .about-list-item{
+text-align: left;
 justify-content: center;
   width: 264px;
 
