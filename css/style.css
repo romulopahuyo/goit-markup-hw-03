@@ -61,12 +61,11 @@ a{
 
 
  .nav-pagelogo{
- background-color: yellow;
 
 
  }
 header {
-    width: 1440px;
+   max-width: 100%;
     height: 72px;
     flex-shrink: 0;
     display: flex;
@@ -89,7 +88,7 @@ header {
 }
 
 .nav-pagelogo{
-margin-left: 271px;
+padding-left: 156px;
 
 }
 
@@ -106,8 +105,8 @@ list-style: none;
 display: flex;
 justify-content:flex-end;
 gap: 40px;
-padding-right: 10px;
-background-color: red;
+padding-right: 156px;
+
 
 }
 
@@ -165,10 +164,30 @@ background-color: red;
 
 .hero {
     background-color:var(--navyblue); 
-   max-width: 100%;
+    max-width: 100%;
     height: 600px;
     flex-shrink: 0;
-    align-items:center;
+  
+  
+
+    /* style*/
+
+}
+ .hero-container{
+      display: inline-block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding-top: 188px;
+        padding-left: 472px;
+
+
+}
+
+.nav {
+
+    align-items: center;
     justify-content: center;
 }
 
@@ -179,10 +198,12 @@ background-color: red;
     font-weight:700;
     line-height: 60px;
     letter-spacing: 0.32px; 
-    text-align: center;
     color:var(--whitecolor);
-    align-items: center;
-    justify-content: center;
+ 
+    /* layout*/
+    width: 496px;
+    gap: 400px;
+
     
 }
 
@@ -202,7 +223,14 @@ background-color: red;
     cursor:pointer;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+
+    margin-top: 48px;
+    
+
+
 }
+
+
 
 .hero-button:hover,
 .hero-button:focus{
@@ -227,22 +255,50 @@ background-color: red;
 }
 
 .solution-section{
-  
+margin-top: 224px;
 
 
 }
+
 
 .solution-list{
 display:flex;
 justify-content: center ;
 list-style: none;
 margin:0 156px;
+gap: 24px;
+}
+
+.solution-list-item {
+    padding-top: 72px;
 
 
 }
 
-.solution-list-item{
-padding-top: 112px;
+
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-list{
+    max-width: 100%;
+    display: flex;
+   margin-top:120px;
+   margin-left: 156px;
+    list-style: none;
+    display: flex;
+   gap: 24px;
+   
+  
+
+
+}
+
+.about-list-item{
+justify-content: center;
+  width: 264px;
 
 }
 
@@ -258,6 +314,20 @@ padding-top: 112px;
 }
 
 
+
+.team-section{
+    padding-top: 120px;
+    background-color: var(--cloudcolor);
+    margin-top: 120px;
+
+}
+.team-list{
+
+    display: flex;
+  justify-content: center;
+  padding-top: 72px;
+    gap: 24px;
+}
 
 .about-description,
 .product-description, 
