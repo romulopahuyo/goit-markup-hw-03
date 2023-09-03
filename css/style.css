@@ -484,7 +484,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
 }
 
 .product-list-item{
-flex-basis: calc ((100% - 48px)/3);
+flex-basis: calc((100% - 48px)/3);
 background-color: var(--whitecolor);
 border: 1px solid var(--cornflowercolor);
 padding-bottom:32px;
