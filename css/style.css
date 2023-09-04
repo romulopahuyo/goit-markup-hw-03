@@ -533,7 +533,9 @@ margin-bottom: 8px;
     padding: 50px;
     background-color: var(--cloudcolor);
     color: var(--greencolor);
-    font-size: 46px;
+    font-size: 25px;
+    justify-content: center;
+    margin:100px;
 }
 
 
